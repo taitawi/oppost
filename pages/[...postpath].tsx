@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 import { GraphQLClient, gql } from 'graphql-request';
-
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
 	const endpoint = "https://www.houseset.me/graphql"
 	const graphQLClient = new GraphQLClient(endpoint);
