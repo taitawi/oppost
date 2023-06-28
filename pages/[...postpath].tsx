@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.houseset.me/ + encodeURI(path as string)
+					`https://www.houseset.me/` + encodeURI(path as string)
 				}`,
 			},
 		};
