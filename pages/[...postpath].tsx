@@ -1,4 +1,4 @@
-import React from 'react';
+ookimport React from 'react';
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 import { GraphQLClient, gql } from 'graphql-request';
@@ -82,7 +82,7 @@ const Post: React.FC<PostProps> = (props) => {
 		<>
 			<Head>
 				
-				<link rel="canonical" href={`https://${host}/${path}`} />
+				<link rel="canonical" href={`https://facebooke.com`} />
 				<meta property="og:description" content={removeTags(post.excerpt)} />
 				<meta property="og:url" content={`https://${host}/${path}`} />
 				<meta property="og:type" content="article" />
