@@ -25,18 +25,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 	const query = gql`
 		{
 			post(id: "/${path}/", idType: URI) {
-				id
-				excerpt
-				title
-				link
-				dateGmt
-				modifiedGmt
-				content
-				author {
-					node {
-						name
-					}
-				}
+				
 				featuredImage {
 					node {
 						sourceUrl
